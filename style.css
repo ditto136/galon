@@ -1,0 +1,49 @@
+body{
+    max-width: 1062;
+    width: 100%;
+    margin: auto;
+    background: url(./img/logotip.png) no-repeat center;
+    height: 100%;
+    color: #ffffff;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 24px;
+    margin-bottom: 200px;
+}
+
+.menu-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 63px;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-text {
+    font-weight: 500;
+    font-size: 53px;
+    line-height: 63px;
+}
+
+.button-order {
+    all: unset;
+    background: #f6762c;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 22px 55px;
+}
+
+.main{
+    min-width: 500px;
+}
