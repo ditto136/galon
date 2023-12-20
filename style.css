@@ -1,8 +1,9 @@
 body{
-    max-width: 1062;
-    width: 100%;
+    width: 2000px;
+    height: 819px;
+    flex-shrink: 0;
     margin: auto;
-    background: url(https://i.imgur.com/BkZOkLN.png) no-repeat center;
+    background: url(https://img.freepik.com/free-photo/man-fishing-and-holds-the-angling-rod_1157-38073.jpg?w=1380&t=st=1703036765~exp=1703037365~hmac=22b564fbd4e98af7feb86a0dfbea2731d8927da039b35e7b1ef7cb9da0755937) lightgray 50% / cover no-repeat;
     height: 100%;
     color: #ffffff;
 }
